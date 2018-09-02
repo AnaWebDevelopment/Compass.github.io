@@ -7,7 +7,7 @@
 
         $("#reload ul li a").click(function () {
              //$("#show").load("Pages.html #" + $(this).attr("href"),
-            $("#show").load("../pages/Pages.html #" + $(this).attr("href"), 
+            $("#show").load("Compass/pages/Pages.html #" + $(this).attr("href"), 
                 function () { 
                     LoadWhatWeDo(); 
                     LoadInicio(); 
